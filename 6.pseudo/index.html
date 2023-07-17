@@ -1,0 +1,77 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent span:first-child {
+            color: lightpink;
+        }
+        .parent p:first-of-type {
+            color: lightskyblue;
+        }
+        .container-two > div {
+            margin-top: 30px;
+            background-color: lightpink;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        .container-two > div:nth-child(2n+1) {
+            background-color: lightblue;
+        }
+
+        .container-two > div:last-child {
+            width: 300px;
+        }
+
+
+        li {
+            float: left;
+            margin-right: 30px;
+            font-size: 32px;
+            list-style: none;
+        }
+
+        li::after {
+            content: '|';
+            padding-left: 30px;
+        }
+
+        li:last-of-type::after {
+            content: '';
+        }
+
+        li:first-of-type::before {
+            content: '시작 '
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <span>A</span>
+        <p>B</p>
+        <p>C</p>
+    </div>
+
+    <!-- 수도 요소 -->
+    <div class="container-two">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- 수도 코드 -->
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    
+</body>
+</html></html>
