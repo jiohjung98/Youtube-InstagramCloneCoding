@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    border: 3px solid lightblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+    align-content: space-around;
+
+}
+
+.flex-item {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1 {
+    background-color: lightcoral;
+    padding-bottom: 3rem;
+}
+
+.item-2 {
+    background-color: lightyellow;
+    padding-top: 7rem;
+}
+
+.item-3 {
+    background-color: lightseagreen;
+    padding-top: 10rem;
+}

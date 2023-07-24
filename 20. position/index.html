@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-container {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #ffdddd;
+        }
+
+        .box-container div {
+            padding: 10px;
+            border: 1px solid green;
+            background-color: #ffdddd;
+        }
+
+        #static-box {
+            position: static;
+            top: 20px;
+            left: 30px;
+        }
+
+        #relative-box {
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+
+        #absolute-box {
+            position: absolute;
+            top: 20px;
+            right: 150px;
+        }
+
+        #fixed-box {
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+
+        #sticky {
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div id="static-box">static</div>
+        <div id="relative-box">relative</div>
+        <div id="absolute-box">absolute</div>
+        <div id="fixed-box">fixed</div>
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+    </div>
+    <br>
+    <div id="sticky">~~I am sticky~~</div>
+    <br>
+    <div style="padding-bottom: 2000px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis fugit repellendus tenetur porro dolore mollitia at accusamus ut commodi harum atque non, corrupti veniam dolor! Ipsa itaque dicta dolore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus repellat unde nesciunt totam voluptatibus eius asperiores facere! Magnam vel nostrum corrupti. Distinctio dignissimos voluptas sit tempora vel corrupti odio.
+    </div>
+</body>
+</html>
